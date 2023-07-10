@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="css/template3.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@100;200;300;400;600;700&family=Quicksand:wght@300;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,800&display=swap"
+ rel="stylesheet">
+</head>
+<body>
+    <!--about section-->
+ <section class="sub-header">
+     <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+                <h1>Our Services</h1>
+    </section>
+    <!--pricing-->
+    <section class="pricing">
+        <h1>Services We Offer</h1>
+        <p>Prices may change depending on the breed.</p>
+        <div class="row">
+            <div class="pricing-col">
+                <h3>Therapeutic Brushing: $15 - $30</h3>   
+                <p>Indulge your furry friend in a relaxing and rejuvenating therapeutic brushing session. Our skilled pet groomers use gentle techniques to brush through your pet's coat, promoting healthy circulation and a shiny, tangle-free coat. This service not only keeps your pet looking great but also provides a soothing experience that helps reduce stress and anxiety.</p>
+            </div>
+            <div class="pricing-col">
+                <h3>All-In-One: $75 - $150</h3>
+                <p>Experience the ultimate grooming package with our all-in-one service. This comprehensive offering combines therapeutic brushing, a soothing bath, gentle massage, precise scissor finishing, thorough ear cleaning, and professional nail clipping. This comprehensive grooming session is designed to pamper your pet from head to toe, leaving them looking and feeling their very best. Treat your furry companion to the ultimate indulgence with our all-in-one service.</p>
+            </div>
+            <div class="pricing-col">
+                <h3>Bath/ Massage/ Blow-dry: $25 - $50</h3>
+                <p>Treat your beloved pet to the ultimate spa-like experience with our luxurious bath, massage, and blow-dry service. Our caring groomers will use specially formulated pet-friendly shampoos and conditioners to cleanse and nourish your pet's skin and coat. After the bath, your pet will enjoy a gentle massage that promotes relaxation and overall well-being. Finally, we'll expertly blow-dry your pet's fur, leaving them looking and feeling fresh and fabulous.
+
+</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="pricing-col">
+                <h3>Scissor Finish: $30 - $60</h3>
+                <p>For a truly polished and refined look, opt for our scissor finish service. Our talented groomers will skillfully trim and shape your pet's fur using scissors, creating a perfectly groomed appearance. This meticulous technique allows us to achieve precise cuts, ensuring your pet's coat looks stylish and tailored to their breed standards or your specific preferences.</p>
+            </div>
+            <div class="pricing-col">
+                <h3>Ear Cleaning: $10 - $20</h3>
+                <p>Maintaining clean and healthy ears is crucial for your pet's well-being. Our ear cleaning service involves gentle and thorough cleansing of your pet's ears, removing dirt, wax, and debris. Our experienced groomers will use specialized products and techniques to ensure your pet's ears are free from discomfort and potential infections, promoting good ear hygiene.</p>
+            </div>
+            <div class="pricing-col">
+                <h3>Nail Clipping: $10 - $20</h3>
+                <p>Keep your pet's nails well-maintained and prevent discomfort or potential injuries with our professional nail clipping service. Our expert groomers will carefully trim your pet's nails, paying attention to the proper length to avoid cutting into the quick. By ensuring your pet's nails are neatly trimmed, we help promote their comfort and overall mobility.</p>
+            </div>
+        </div>
+    </section>
+<!---call to action section -->
+<section class="cta">
+    <h1>Interested? <br> Make An Appoinment Now </h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+<!--footer-->
+<section class="footer">
+    <p>Follow our socials to support us!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+</section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
